@@ -26,6 +26,8 @@
   background: white;
   border-radius: 4px;
   margin: 0px 3px;
+  transform: translate(-5px, 0)
+  -ms-transform: translate(-5px, 0);
   -webkit-transform: translate(-5px, 0);
 }
 
@@ -33,6 +35,8 @@
   width: 210px;
   margin: 5px;
   margin-left: 0;
+  transform: rotate(-3deg)
+  -ms-transform: rotate(-3deg);
   -webkit-transform: rotate(-3deg);
   text-transform: uppercase;
   font-weight: lighter;
@@ -55,9 +59,13 @@
 }
 
 .badge-li:hover {
+  transform: invert(100%)
+  -ms-transform: invert(100%);
   -webkit-filter: invert(100%);
   transition: 0.1s;
 }
+
+
 
 .sidebar-menu-bar {
   display:block;
@@ -68,12 +76,16 @@
   background: white;
   color: #333;
   text-align: right;
+  transform: translate(-5px, 0)
+  -ms-transform: translate(-5px, 0);
   -webkit-transform: translate(-5px, 0);
   transition: 0.1s;
   border-radius: 4px;
 }
 
 .sidebar-menu-bar:hover {
+  transform: invert(100%)
+  -ms-transform: invert(100%);
   -webkit-filter: invert(100%);
   transition: 0.1s;
 }
