@@ -1,20 +1,25 @@
 PA.Routers.PortfolioRouter = Backbone.Router.extend({
 
   routes: {
-    "": "rootIndex",
-    "bio": "rootIndex",
-    "projects": "projectsIndex"
+            "": "bio",
+         "bio": "bio",
+    "projects": "projects",
+     "contact": "contact"
   },
 
-  rootIndex: function () {
+  bio: function () {
     var bio = new PA.Views.Bio({});
     $("#main").html(bio.render().$el);
   },
 
-  projectsIndex: function () {
-    console.log("projects")
-    var projectsIndex = new PA.Views.Projects({});
-    $("#main").html(projectsIndex.render().$el);
+  projects: function () {
+    var projects = new PA.Views.Projects({});
+    $("#main").html(projects.render().$el);
+  },
+
+  contact: function () {
+    var links = new PA.Views.Links({});
+    $("#main").html(links.render().$el);
   }
 
 });

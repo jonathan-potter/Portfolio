@@ -1,6 +1,6 @@
 main, #main {
   float:left;
-  width: 500px;
+  width: 600px;
   margin-top: 47px;
   border-radius: 4px;
   background: white;
@@ -14,8 +14,32 @@ main, #main {
   margin: 10px;
   float: left;
 }
-
+/********************************** BIO ***************************************/
 #main > section > p {
   font-size: 18px;
   padding: 10px;
+}
+/******************************** Projects ************************************/
+#main > section {
+  padding: 20px;
+}
+
+#main > section > h2 {
+  font-size: 30px;
+}
+#main > section > ul > li > h3 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+#main > section > summary {font-size: 15px;}
+
+#main > section > ul > li > ul > li:before {content: "-";}
+
+#link-list {}
+#link-list > .link-list-item {
+  display: block;
+  line-height: 35px;
+  vertical-align: middle;
+  color: black;
 }

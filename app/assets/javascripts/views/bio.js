@@ -1,6 +1,6 @@
 PA.Views.Bio = Backbone.View.extend({
 
-  template: JST["root_index"],
+  template: JST["bio"],
 
   render: function () {
 
