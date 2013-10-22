@@ -4,7 +4,6 @@
   background: #A55;
   color: white;
   font-size: 20px;
-  border-bottom: 1px solid #CCC;
 }
 
 #header-wrapper {
@@ -12,7 +11,7 @@
 }
 
 #site-title {
-  color: #EEE;
+  color: white;
   margin-top: 20px;
   padding-right: 5px;
   text-align: right;
@@ -26,7 +25,7 @@
   float: left;
   background: white;
   border-radius: 4px;
-  margin: 5px 3px;
+  margin: 0px 3px;
   -webkit-transform: translate(-5px, 0);
 }
 
@@ -52,12 +51,12 @@
   height: 25px;
   float: left;
   padding: 5px;
-  transition: 1s;
+  transition: 0.1s;
 }
 
 .badge-li:hover {
   -webkit-filter: invert(80%);
-  transition: 1s;
+  transition: 0.1s;
 }
 
 .sidebar-menu-bar {
@@ -70,11 +69,11 @@
   color: #333;
   text-align: right;
   -webkit-transform: translate(-5px, 0);
-  transition: 1s;
+  transition: 0.1s;
   border-radius: 4px;
 }
 
 .sidebar-menu-bar:hover {
   -webkit-filter: invert(100%);
-  transition: 1s;
+  transition: 0.1s;
 }

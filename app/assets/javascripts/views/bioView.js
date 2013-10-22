@@ -1,4 +1,4 @@
-PA.Views.Index = Backbone.View.extend({
+PA.Views.Bio = Backbone.View.extend({
 
   template: JST["root_index"],
 

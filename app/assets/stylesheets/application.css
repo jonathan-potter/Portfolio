@@ -33,13 +33,11 @@ a {text-decoration: none;}
 li {list-style-type: none;}
 
 body {
-  background: #EEE;
+  background: #A55;
 }
 
 main, .main {
   float:left;
   width: 500px;
   background: white;
-  border: 1px solid #CCC;
-  border-top: 0;
 }

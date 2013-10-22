@@ -1,3 +1,11 @@
+main, #main {
+  float:left;
+  width: 500px;
+  margin-top: 47px;
+  border-radius: 4px;
+  background: white;
+}
+
 .profile-picture {
   display: block;
   width: 100px;
