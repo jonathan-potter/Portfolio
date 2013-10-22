@@ -55,7 +55,7 @@
 }
 
 .badge-li:hover {
-  -webkit-filter: invert(80%);
+  -webkit-filter: invert(100%);
   transition: 0.1s;
 }
 

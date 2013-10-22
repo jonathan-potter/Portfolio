@@ -35,9 +35,3 @@ li {list-style-type: none;}
 body {
   background: #A55;
 }
-
-main, .main {
-  float:left;
-  width: 500px;
-  background: white;
-}
