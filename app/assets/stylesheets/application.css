@@ -29,7 +29,11 @@ body,header,h1,h2,h3,h4,h5,h6,nav,div,a,p,ul,li,section,summary,main,.main {
 .left {float: left;}
 .right {float:right;}
 
-a {text-decoration: none;}
+a {
+  text-decoration: none;
+  color: #666;
+}
+
 li {list-style-type: none;}
 
 body {
