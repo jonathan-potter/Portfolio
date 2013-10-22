@@ -1,0 +1,73 @@
+#site-header {
+  float: left;
+  height: 100%;
+  background: #A55;
+  color: white;
+  font-size: 25px;
+  border-bottom: 1px solid #CCC;
+}
+
+#header-wrapper {
+  width: 235px;
+}
+
+#site-title {
+  color: #EEE;
+  margin-top: 20px;
+  padding-right: 5px;
+  text-align: right;
+  font-weight: bold;
+}
+
+#header-links {}
+
+.badge-li {
+  display: inline-block;
+  float: left;
+  background: white;
+  border-radius: 4px;
+  margin: 5px 3px;
+}
+
+#header-links > ul > li {
+  width: 210px;
+  margin: 5px;
+  margin-left: 0;
+  -webkit-transform: rotate(-3deg);
+}
+
+#header-links > ul > li > ul {
+  float: right;
+}
+
+#header-links > ul > li > a {}
+#header-links > ul > li > a > div {}
+#header-links > ul > li > a > div > img {}
+
+.badge {
+  width: 25px;
+  height: 25px;
+  float: left;
+  padding: 5px;
+}
+
+.badge-li:hover {
+  -webkit-filter: invert(80%);
+}
+
+.sidebar-menu-bar {
+  display:block;
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+  margin-left: 0;
+  background: #EEE;
+  color: #555;
+  text-align: right;
+  -webkit-transform: translate(-1px, 0);
+}
+
+.sidebar-menu-bar:hover {
+  background: #333;
+  color: #CCC;
+}

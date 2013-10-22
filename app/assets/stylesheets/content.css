@@ -1,0 +1,13 @@
+.profile-picture {
+  display: block;
+  width: 100px;
+  height: auto;
+  border: 4px solid #A55;
+  margin: 10px;
+  float: left;
+}
+
+.main > p {
+  font-size: 20px;
+  padding: 10px;
+}
