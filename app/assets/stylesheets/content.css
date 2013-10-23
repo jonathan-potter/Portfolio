@@ -20,16 +20,18 @@ main, #main {
   padding: 10px;
 }
 /******************************** Projects ************************************/
+
+#main {margin: 20px;}
 #main > section {
   padding: 20px;
 }
-
-#main > section > h2 {
-  font-size: 30px;
+#main > section > ul {}
+#main > section > ul > li {
+  padding: 20px 0;
+  border-bottom: 1px solid #CCC;
 }
 #main > section > ul > li > h3 {
   font-size: 20px;
-  margin-top: 10px;
 }
 
 #main > section > summary {font-size: 15px;}
@@ -39,6 +41,35 @@ main, #main {
 #link-list {}
 #link-list > .link-list-item {
   display: block;
-  line-height: 35px;
   vertical-align: middle;
+}
+
+.project-header {}
+
+.project-title {
+  float:left;
+  position: absolute;
+  font-size: 25px;
+}
+
+.project-links {
+  width: 200px;
+  margin: auto;
+}
+.project-links > ul {}
+.project-links > ul > li {
+  float: left;
+  padding: 0 5px;
+  text-align: bottom;
+  line-height: 35px;
+}
+
+.project-links-single-link {
+  width: 100px;
+  margin: auto;
+}
+.project-links-single-link > ul {}
+.project-links-single-link > ul > li {
+  text-align: bottom;
+  line-height: 35px;
 }
