@@ -42,6 +42,7 @@ main, #main {
 #link-list > .link-list-item {
   display: block;
   vertical-align: middle;
+  line-height: 35px;
 }
 
 .project-header {}
